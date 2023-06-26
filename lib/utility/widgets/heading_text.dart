@@ -1,5 +1,5 @@
 
-import 'package:google_fonts/google_fonts.dart';
+
 import 'package:flutter/material.dart';
 
 import '../Dimensions.dart';
@@ -26,18 +26,13 @@ class HeadingText extends StatelessWidget {
         text,
         maxLines: 1,
         overflow: overFlow,
-        style: GoogleFonts.inter(
-          textStyle: TextStyle(
+        style: TextStyle(
           color: color,
-          fontSize: size==0?Dimensions.font20:size,
+          fontSize: size==0?Dimensions.font26:size,
           fontWeight: fontWeight,
-          
-         
-
-          
-
-        )
-        )
+          fontFamily: "Heading"
+        ),
+        
     );
   }
 }

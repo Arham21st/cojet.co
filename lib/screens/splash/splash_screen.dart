@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:cojet/utility/app_colors.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import '../../routes/routes_helper.dart';
@@ -42,12 +43,12 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 236, 60, 6),
+      backgroundColor: AppColors.background,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           ScaleTransition(scale: animation,
-          child: Center(child: Image.asset("assets/images/logo.png",
+          child: Center(child: Image.asset("assets/images/logoFly1.png",
           width: Dimensions.width25*8,color: Colors.white,))),
           // Center(child: Image.asset("assets/logo part 2.png",width: Dimensions.width25*8,))
         ],

@@ -56,26 +56,26 @@ List<Widget> _buildScreens() {
             PersistentBottomNavBarItem(
                 icon: const Icon(CupertinoIcons.home),
                 title: ("Home"),
-                activeColorPrimary: Colors.white,
-                inactiveColorPrimary: const Color.fromARGB(232, 215, 215, 216),
+                activeColorPrimary: const Color.fromARGB(255, 54, 38, 32),
+                inactiveColorPrimary: const Color.fromRGBO(238, 238, 238, 1),
             ),
             PersistentBottomNavBarItem(
                 icon: const Icon(CupertinoIcons.doc_chart),
                 title: ("Bookings"),
-                activeColorPrimary: Colors.white,
-                inactiveColorPrimary: const Color.fromARGB(232, 215, 215, 216),
+                activeColorPrimary: const Color.fromARGB(255, 54, 38, 32),
+                inactiveColorPrimary: const Color.fromRGBO(238, 238, 238, 1),
             ),
             PersistentBottomNavBarItem(
                 icon: const Icon(CupertinoIcons.envelope),
                 title: ("Inbox"),
-                activeColorPrimary: Colors.white,
-                inactiveColorPrimary: const Color.fromARGB(232, 215, 215, 216),
+                activeColorPrimary: const Color.fromARGB(255, 54, 38, 32),
+                inactiveColorPrimary: const Color.fromRGBO(238, 238, 238, 1),
             ),
             PersistentBottomNavBarItem(
                 icon: const Icon(CupertinoIcons.person),
                 title: ("Profile"),
-                activeColorPrimary: Colors.white,
-                inactiveColorPrimary: const Color.fromARGB(232, 215, 215, 216),
+                activeColorPrimary: const Color.fromARGB(255, 54, 38, 32),
+                inactiveColorPrimary: const Color.fromRGBO(238, 238, 238, 1),
             ),
         ];
     }

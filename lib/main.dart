@@ -1,5 +1,6 @@
 import 'package:cojet/screens/home/home_page_body.dart';
 import 'package:cojet/screens/splash/splash_screen.dart';
+import 'package:cojet/utility/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -15,11 +16,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  const GetMaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-     home: HomePage(),
-      // initialRoute: RoutesHelper.getSplash(),
-      // getPages: RoutesHelper.routes,
+    //  home: HomePage(),
+      initialRoute: RoutesHelper.getSplash(),
+      getPages: RoutesHelper.routes,
+      theme: ThemeData(
+        primarySwatch: Colors.brown,
+      ),
     
 
     );
