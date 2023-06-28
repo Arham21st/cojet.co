@@ -1,3 +1,5 @@
+import 'package:cojet/screens/date_picker.dart';
+import 'package:cojet/screens/flights/search_result.dart';
 import 'package:cojet/screens/home/home_page_body.dart';
 import 'package:cojet/screens/splash/splash_screen.dart';
 import 'package:cojet/utility/app_colors.dart';
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-    //  home: HomePage(),
+      // home: SearchResult(),
       initialRoute: RoutesHelper.getSplash(),
       getPages: RoutesHelper.routes,
       theme: ThemeData(
