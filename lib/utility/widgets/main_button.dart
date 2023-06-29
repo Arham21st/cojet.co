@@ -10,13 +10,13 @@ final ButtonStyle mainButton = ElevatedButton.styleFrom(
 
     
     shape: RoundedRectangleBorder(
-    borderRadius: BorderRadius.circular(Dimensions.height15),),
+    borderRadius: BorderRadius.circular(Dimensions.height10),),
     foregroundColor: AppColors.mainColor,
     backgroundColor: AppColors.mainColor,
     surfaceTintColor: Colors.brown,
     elevation: Dimensions.height5,
     shadowColor: Colors.brown,
-    fixedSize: Size(Dimensions.height20*15, Dimensions.height20*2.5)
+    fixedSize: Size(Dimensions.height20*17, Dimensions.height20*2.8)
     //maximumSize: Size(Dimensions.height20*15, Dimensions.height20*6)
 
 );
@@ -51,6 +51,22 @@ final ButtonStyle transparentButton = ElevatedButton.styleFrom(
     elevation: Dimensions.height5/2,
     //shadowColor: Colors.brown,
     fixedSize: Size(Dimensions.height20*8, Dimensions.height20*3)
+    //maximumSize: Size(Dimensions.height20*15, Dimensions.height20*6)
+
+);
+
+final ButtonStyle smallButton2 = ElevatedButton.styleFrom(
+
+    
+    
+    shape: RoundedRectangleBorder(
+    borderRadius: BorderRadius.circular(Dimensions.height10),),
+    foregroundColor: AppColors.mainColor,
+    backgroundColor: AppColors.mainColor,
+    surfaceTintColor: Colors.brown,
+    elevation: Dimensions.height5/2,
+    shadowColor: Colors.brown,
+    fixedSize: Size(Dimensions.height20*4.8, Dimensions.height20*1.6)
     //maximumSize: Size(Dimensions.height20*15, Dimensions.height20*6)
 
 );

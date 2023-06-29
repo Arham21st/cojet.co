@@ -210,7 +210,7 @@ class FlightDetails extends StatelessWidget {
               },style: transparentButton, child: SubHeadingText(text: "Cancel",size: Dimensions.font20,color: AppColors.mainColor,),),
               SizedBox(width: Dimensions.height5,),
               ElevatedButton(onPressed: () {
-                
+               Get.toNamed(RoutesHelper.getPersonalInfo()); 
               },style: smallButton, child: SubHeadingText(text: "Confirm",size: Dimensions.font20,),)
             ],),
             SizedBox(height: Dimensions.height10,)

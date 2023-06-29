@@ -791,7 +791,7 @@ class _ContextState extends State<Context> {
                               SizedBox(height: Dimensions.height5,),
                               ElevatedButton(onPressed: () {
                                 
-                              }, child: SubHeadingText(text: "Book Now",size: Dimensions.font16,fontWeight: FontWeight.w400,),style: smallButton,)
+                              },style: smallButton2, child: SubHeadingText(text: "Book Now",size: Dimensions.font26/2,fontWeight: FontWeight.w400,),)
                               
                               
                             
@@ -885,7 +885,7 @@ class _ContextState extends State<Context> {
                               SizedBox(height: Dimensions.height5,),
                               ElevatedButton(onPressed: () {
                                 
-                              },style: smallButton, child: SubHeadingText(text: "Book Now",size: Dimensions.font16,fontWeight: FontWeight.w400,),)
+                              },style: smallButton2, child: SubHeadingText(text: "Book Now",size: Dimensions.font26/2,fontWeight: FontWeight.w400,),)
                               
                               
                             
