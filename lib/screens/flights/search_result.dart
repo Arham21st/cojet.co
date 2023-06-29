@@ -80,6 +80,7 @@ class SearchResult extends StatelessWidget {
                                 )
                               ],
                             ),
+                            
                             SizedBox(height: Dimensions.height20,),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -101,7 +102,7 @@ class SearchResult extends StatelessWidget {
                               ],
                             ),
                             SizedBox(height: Dimensions.height20,),
-                            ElevatedButton(onPressed: () {} ,style: mainButton, child: SubHeadingText(text: "Check",color: Colors.white,size: Dimensions.font20,),)
+                            ElevatedButton(onPressed: () {Get.toNamed(RoutesHelper.getFlightDetails());} ,style: mainButton, child: SubHeadingText(text: "Check",color: Colors.white,size: Dimensions.font20,),)
                           ],
                         ),
                       ),

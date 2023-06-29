@@ -449,7 +449,7 @@ class _ContextState extends State<Context> {
                                   Padding(
                                     padding: EdgeInsets.only(left:Dimensions.height5,right: Dimensions.height5,bottom: Dimensions.height20,top: Dimensions.height5),
                                     child: ElevatedButton(onPressed: () {
-                                      
+                                      Get.toNamed(RoutesHelper.getISearchResult());
                                     },
                                     
                                     style: mainButton, child: SubHeadingText(text: "Search",size: Dimensions.font26,fontWeight: FontWeight.normal,),
