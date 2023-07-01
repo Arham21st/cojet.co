@@ -83,6 +83,7 @@ class FlightDetails extends StatelessWidget {
                                   )
                                 ],
                               ),
+                          
                           SizedBox(height: Dimensions.height15,),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -212,7 +213,8 @@ class FlightDetails extends StatelessWidget {
               ElevatedButton(onPressed: () {
                Get.toNamed(RoutesHelper.getPersonalInfo()); 
               },style: smallButton, child: SubHeadingText(text: "Confirm",size: Dimensions.font20,),)
-            ],),
+            ],
+            ),
             SizedBox(height: Dimensions.height10,)
           ],
         ),

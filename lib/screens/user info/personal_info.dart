@@ -167,7 +167,7 @@ class _PersonalInfoState extends State<PersonalInfo> {
                 ),
                 SizedBox(height: Dimensions.height30,),
                 ElevatedButton(onPressed: () {
-                  
+                   Get.toNamed(RoutesHelper.getPayment());
                 }, child: SubHeadingText(text: "Confirm",size: Dimensions.font20,),style: mainButton,),
                 SizedBox(height: Dimensions.height20,),
                 SubHeadingText(text: "Skip",size: Dimensions.font20,color: AppColors.mainColor,)
