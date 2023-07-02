@@ -20,6 +20,7 @@ class _PaymentPageState extends State<PaymentPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.background,
       body: Stack(
         children: [
           Positioned(
@@ -44,7 +45,7 @@ class _PaymentPageState extends State<PaymentPage> {
                 Container(
                   height: Dimensions.height20*13,
                   width: double.maxFinite,
-                  color: Color.fromARGB(255, 236, 231, 231),
+                  color: Colors.grey.shade300,
                   child: Padding(
                     padding: EdgeInsets.only(left: Dimensions.height20*1.5,right: Dimensions.height20*1.5,top: Dimensions.height15,bottom: Dimensions.height10),
                     child: Column(
@@ -183,7 +184,7 @@ class _PaymentPageState extends State<PaymentPage> {
               },style: transparentButton, child: SubHeadingText(text: "Cancel",size: Dimensions.font20,color: AppColors.mainColor,),),
               SizedBox(width: Dimensions.height5,),
               ElevatedButton(onPressed: () {
-               //Get.toNamed(RoutesHelper.getPersonalInfo()); 
+               Get.toNamed(RoutesHelper.getBoardingPass()); 
               },style: smallButton, child: SubHeadingText(text: "Confirm",size: Dimensions.font20,),)
             ],
             ),

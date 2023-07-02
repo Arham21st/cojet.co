@@ -1,7 +1,9 @@
+import 'package:cojet/screens/flights/flight_details.dart';
 import 'package:cojet/screens/home/home_page_body.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
+import 'package:cojet/screens/user info/my_bookings.dart';
 
 import '../../utility/app_colors.dart';
 
@@ -21,7 +23,7 @@ class _HomePageState extends State<HomePage> {
     // Center(child: BigText(text: "page 3")),
     // Center(child: BigText(text: "page 4"))
     const HomePageBody(),
-    const Center(child: Text("Page2"),),
+    const MyBookings(),
     const Center(child: Text("Page3"),),
     const Center(child: Text("Page4"),)
   ];
@@ -45,7 +47,7 @@ List<Widget> _buildScreens() {
           // Center(child: BigText(text: "page 3")),
           // Center(child: BigText(text: "page 4"))
           const HomePageBody(),
-          const Center(child: Text("Page2"),),
+          const MyBookings(),
           const Center(child: Text("Page3"),),
           const Center(child: Text("Page4"),)
         ];
