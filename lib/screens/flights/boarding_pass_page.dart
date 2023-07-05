@@ -17,6 +17,7 @@ class BoardingPass extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.background,
       body: SafeArea(child: Stack(
         children: [
           Positioned(
@@ -28,6 +29,7 @@ class BoardingPass extends StatelessWidget {
               },
               child: Icon(Icons.arrow_back_ios))
             ),
+           
             Positioned(
               top: Dimensions.height20,
               left: 0,

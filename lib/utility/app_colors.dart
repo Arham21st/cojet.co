@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class AppColors{
   // static final Color textColor = const Color(0xFFccc7c5);
   static final Color mainColor = const Color(0xFFAC906F);
-  static final Color background = const Color(0xF8FFFFFF);
+  static final Color background = Colors.grey.shade200;
   static final Color dark = const Color(0xEC0D0D0E);
   static final Color activeIcon = const Color(0xFF362620);
    static final Color grayColor = const Color(0xFF777676);

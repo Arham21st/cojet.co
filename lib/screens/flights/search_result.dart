@@ -14,7 +14,7 @@ class SearchResult extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromRGBO(255, 255, 255, 0.979),
+      backgroundColor: AppColors.background,
         body: Column(
           children: [
             SizedBox(

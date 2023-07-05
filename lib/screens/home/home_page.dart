@@ -1,5 +1,7 @@
 import 'package:cojet/screens/flights/flight_details.dart';
+import 'package:cojet/screens/home/contact_us.dart';
 import 'package:cojet/screens/home/home_page_body.dart';
+import 'package:cojet/screens/home/settings.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
@@ -24,8 +26,8 @@ class _HomePageState extends State<HomePage> {
     // Center(child: BigText(text: "page 4"))
     const HomePageBody(),
     const MyBookings(),
-    const Center(child: Text("Page3"),),
-    const Center(child: Text("Page4"),)
+    const ContactUs(),
+    const Settings()
   ];
 
   void onTapNav(int index){
@@ -48,8 +50,8 @@ List<Widget> _buildScreens() {
           // Center(child: BigText(text: "page 4"))
           const HomePageBody(),
           const MyBookings(),
-          const Center(child: Text("Page3"),),
-          const Center(child: Text("Page4"),)
+          const ContactUs(),
+          const Settings()
         ];
     }
 
@@ -68,14 +70,14 @@ List<Widget> _buildScreens() {
                 inactiveColorPrimary: const Color.fromRGBO(238, 238, 238, 1),
             ),
             PersistentBottomNavBarItem(
-                icon: const Icon(CupertinoIcons.envelope),
+                icon: const Icon(CupertinoIcons.text_bubble),
                 title: ("Inbox"),
                 activeColorPrimary: const Color.fromARGB(255, 54, 38, 32),
                 inactiveColorPrimary: const Color.fromRGBO(238, 238, 238, 1),
             ),
             PersistentBottomNavBarItem(
-                icon: const Icon(CupertinoIcons.person),
-                title: ("Profile"),
+                icon: const Icon(CupertinoIcons.settings),
+                title: ("Settings"),
                 activeColorPrimary: const Color.fromARGB(255, 54, 38, 32),
                 inactiveColorPrimary: const Color.fromRGBO(238, 238, 238, 1),
             ),

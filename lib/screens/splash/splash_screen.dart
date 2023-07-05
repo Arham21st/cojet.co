@@ -49,7 +49,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
         children: [
           ScaleTransition(scale: animation,
           child: Center(child: Image.asset("assets/images/logoFly1.png",
-          width: Dimensions.width25*8,color: Colors.white,))),
+          width: Dimensions.width25*8,color: AppColors.mainColor))),
           // Center(child: Image.asset("assets/logo part 2.png",width: Dimensions.width25*8,))
         ],
       ),
